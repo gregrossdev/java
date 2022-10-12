@@ -39,4 +39,11 @@ class c00ExpressionsTest {
         assertEquals("Input: max1020(19, 11)", 19, expressions.max1020(19, 11));
         assertEquals("Input: max1020(11, 9)", 11, expressions.max1020(11, 9));
     }
+
+    @Test
+    void dateFashion() {
+        assertEquals("Input: dateFashion(5, 10)", 2, expressions.dateFashion(5, 10));
+        assertEquals("Input: dateFashion(5, 2)", 0, expressions.dateFashion(5, 2));
+        assertEquals("Input: dateFashion(5, 5)", 1, expressions.dateFashion(5, 5));
+    }
 }

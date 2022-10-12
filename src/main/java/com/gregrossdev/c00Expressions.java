@@ -84,10 +84,30 @@ public class c00Expressions {
         return a > b ? a : b;
     }
 
+    /*
+     * dateFashion(5, 10) → 2
+     * dateFashion(5, 2) → 0
+     * dateFashion(5, 5) → 1
+     *
+     * @param you
+     * @param date
+     * @return int
+     *      if both parameters are 8 or more return 2
+     *      else if both parameters are 2 or less return 0
+     *      else return 0
+     */
+    public static int dateFashion(int you, int date)
+    {
+        if (you >= 8 || date >= 8) return 2;
+        else if (you <= 2 || date <= 2) return 0;
+        else return 1;
+    }
+
     public static void main(String[] args) {
         // testing playground
-        System.out.println(max1020(11, 19));
-        System.out.println(max1020(19, 11));
-        System.out.println(max1020(11, 9));
+        System.out.println(dateFashion(5, 10));
+        System.out.println(dateFashion(5, 2));
+        System.out.println(dateFashion(5, 5));
+
     }
 }

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ae23254-b285-47a6-8236-b3d78330dd69" name="Changes" comment="NUMBERS intMax()">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9ae23254-b285-47a6-8236-b3d78330dd69" name="Changes" comment="NUMBERS max1020()">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gregrossdev/c00Expressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gregrossdev/c00Expressions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +50,7 @@
       <recent name="com.gregrossdev" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.c00ExpressionsTest.max1020">
+  <component name="RunManager" selected="JUnit.c00ExpressionsTest.dateFashion">
     <configuration name="c00Expressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gregrossdev.c00Expressions" />
       <module name="java" />
@@ -80,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="c00ExpressionsTest.diff21" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="c00ExpressionsTest.dateFashion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -90,7 +89,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gregrossdev" />
       <option name="MAIN_CLASS_NAME" value="com.gregrossdev.c00ExpressionsTest" />
-      <option name="METHOD_NAME" value="diff21" />
+      <option name="METHOD_NAME" value="dateFashion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.c00ExpressionsTest.max1020" />
+        <item itemvalue="JUnit.c00ExpressionsTest.dateFashion" />
         <item itemvalue="Application.c00Expressions" />
+        <item itemvalue="JUnit.c00ExpressionsTest.max1020" />
         <item itemvalue="JUnit.c00ExpressionsTest.intMax" />
         <item itemvalue="JUnit.c00ExpressionsTest" />
-        <item itemvalue="JUnit.c00ExpressionsTest.diff21" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +145,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665589482388</updated>
-      <workItem from="1665589483676" duration="8759000" />
+      <workItem from="1665589483676" duration="9449000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665589766739</created>
@@ -204,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665603651225</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="NUMBERS max1020()">
+      <created>1665605680233</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665605680233</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +234,7 @@
     <MESSAGE value="NUMBERS diff21()" />
     <MESSAGE value="update to block code formatting" />
     <MESSAGE value="NUMBERS intMax()" />
-    <option name="LAST_COMMIT_MESSAGE" value="NUMBERS intMax()" />
+    <MESSAGE value="NUMBERS max1020()" />
+    <option name="LAST_COMMIT_MESSAGE" value="NUMBERS max1020()" />
   </component>
 </project>
