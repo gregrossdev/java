@@ -9,10 +9,20 @@ class c00ExpressionsTest {
 
     c00Expressions expressions = new c00Expressions();
 
+//  NUMBERS
     @Test
     void sumDouble() {
         assertEquals("Input: sumDouble(1, 2)", 3, expressions.sumDouble(1, 2));
         assertEquals("Input: sumDouble(3, 2)", 5, expressions.sumDouble(3, 2));
         assertEquals("Input: sumDouble(2, 2)", 8, expressions.sumDouble(2, 2));
+    }
+
+    @Test
+    void diff21() {
+        assertEquals("Input: diff21(19)", 2, expressions.diff21(19));
+        assertEquals("Input: diff21(10)", 11, expressions.diff21(10));
+        assertEquals("Input: diff21(21)", 0, expressions.diff21(21));
+        assertEquals("Input: diff21(22)", 2, expressions.diff21(22));
+        assertEquals("Input: diff21(-10)", 31, expressions.diff21(-10));
     }
 }
