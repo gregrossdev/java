@@ -16,7 +16,8 @@ public class c00Expressions {
      *      else sum
      */
 
-    public static int sumDouble(int a, int b) {
+    public static int sumDouble(int a, int b)
+    {
         int sum = a + b;
         if(a == b)
             return sum * 2;
@@ -36,11 +37,27 @@ public class c00Expressions {
      *      if n is greater than 21 return double the difference between 21 and n
      *      else the difference between n and 21
      */
-    public static int diff21(int n) {
+    public static int diff21(int n)
+    {
         if (n > 21)
             return 2 * (n - 21);
         else
             return 21 - n;
+    }
+
+    /*
+     * intMax(1, 2, 3) → 3
+     * intMax(1, 3, 2) → 3
+     * intMax(3, 2, 1) → 3
+     *
+     * @param n
+     * @return int
+     *      if n is greater than 21 return double the difference between 21 and n
+     *      else the difference between n and 21
+     */
+    public int intMax(int a, int b, int c)
+    {
+
     }
 
     public static void main(String[] args) {
