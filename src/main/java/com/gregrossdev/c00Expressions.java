@@ -65,10 +65,29 @@ public class c00Expressions {
         return max;
     }
 
+    /*
+     * max1020(11, 19) → 19
+     * max1020(19, 11) → 19
+     * max1020(11, 9) → 11
+     *
+     * @param a
+     * @param b
+     * @return int
+     *      if parameters within range 10 - 20 find largest value of the parameters
+     *      else 0
+     */
+    public static int max1020(int a, int b)
+    {
+        a = (a >= 10 && a <= 20) ? a : 0;
+        b = (b >= 10 && b <= 20) ? b : 0;
+
+        return a > b ? a : b;
+    }
+
     public static void main(String[] args) {
         // testing playground
-        System.out.println(intMax(1, 2, 3));
-        System.out.println(intMax(1, 3, 2));
-        System.out.println(intMax(3, 2, 1));
+        System.out.println(max1020(11, 19));
+        System.out.println(max1020(19, 11));
+        System.out.println(max1020(11, 9));
     }
 }

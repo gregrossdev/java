@@ -32,4 +32,11 @@ class c00ExpressionsTest {
         assertEquals("Input: intMax(1, 3, 2)", 3, expressions.intMax(1, 3, 2));
         assertEquals("Input: intMax(3, 2, 1)", 3, expressions.intMax(3, 2, 1));
     }
+
+    @Test
+    void max1020() {
+        assertEquals("Input: max1020(11, 19)", 19, expressions.max1020(11, 19));
+        assertEquals("Input: max1020(19, 11)", 19, expressions.max1020(19, 11));
+        assertEquals("Input: max1020(11, 9)", 11, expressions.max1020(11, 9));
+    }
 }

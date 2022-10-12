@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ae23254-b285-47a6-8236-b3d78330dd69" name="Changes" comment="update to block code formatting">
+    <list default="true" id="9ae23254-b285-47a6-8236-b3d78330dd69" name="Changes" comment="NUMBERS intMax()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gregrossdev/c00Expressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gregrossdev/c00Expressions.java" afterDir="false" />
     </list>
@@ -51,7 +51,7 @@
       <recent name="com.gregrossdev" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.c00ExpressionsTest.intMax">
+  <component name="RunManager" selected="JUnit.c00ExpressionsTest.max1020">
     <configuration name="c00Expressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gregrossdev.c00Expressions" />
       <module name="java" />
@@ -112,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="c00ExpressionsTest.sumDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="c00ExpressionsTest.max1020" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -122,7 +122,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.gregrossdev" />
       <option name="MAIN_CLASS_NAME" value="com.gregrossdev.c00ExpressionsTest" />
-      <option name="METHOD_NAME" value="sumDouble" />
+      <option name="METHOD_NAME" value="max1020" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.c00ExpressionsTest.intMax" />
+        <item itemvalue="JUnit.c00ExpressionsTest.max1020" />
         <item itemvalue="Application.c00Expressions" />
+        <item itemvalue="JUnit.c00ExpressionsTest.intMax" />
         <item itemvalue="JUnit.c00ExpressionsTest" />
         <item itemvalue="JUnit.c00ExpressionsTest.diff21" />
-        <item itemvalue="JUnit.c00ExpressionsTest.sumDouble" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665589482388</updated>
-      <workItem from="1665589483676" duration="6684000" />
+      <workItem from="1665589483676" duration="8759000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665589766739</created>
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665602440738</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="NUMBERS intMax()">
+      <created>1665603651225</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665603651225</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +227,7 @@
     <MESSAGE value="fixes" />
     <MESSAGE value="NUMBERS diff21()" />
     <MESSAGE value="update to block code formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to block code formatting" />
+    <MESSAGE value="NUMBERS intMax()" />
+    <option name="LAST_COMMIT_MESSAGE" value="NUMBERS intMax()" />
   </component>
 </project>
