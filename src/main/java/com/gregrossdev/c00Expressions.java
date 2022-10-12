@@ -50,22 +50,25 @@ public class c00Expressions {
      * intMax(1, 3, 2) → 3
      * intMax(3, 2, 1) → 3
      *
-     * @param n
+     * @param a
+     * @param b
+     * @param c
      * @return int
-     *      if n is greater than 21 return double the difference between 21 and n
-     *      else the difference between n and 21
+     *      find largest parameter
      */
-    public int intMax(int a, int b, int c)
+    public static int intMax(int a, int b, int c)
     {
+        int max = a > b ? a : b;
+        if(max < c)
+            max = c;
 
+        return max;
     }
 
     public static void main(String[] args) {
         // testing playground
-        System.out.println(diff21(19));
-        System.out.println(diff21(10));
-        System.out.println(diff21(21));
-        System.out.println(diff21(22));
-        System.out.println(diff21(-10));
+        System.out.println(intMax(1, 2, 3));
+        System.out.println(intMax(1, 3, 2));
+        System.out.println(intMax(3, 2, 1));
     }
 }

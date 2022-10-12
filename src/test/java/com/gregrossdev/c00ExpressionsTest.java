@@ -25,4 +25,11 @@ class c00ExpressionsTest {
         assertEquals("Input: diff21(22)", 2, expressions.diff21(22));
         assertEquals("Input: diff21(-10)", 31, expressions.diff21(-10));
     }
+
+    @Test
+    void intMax() {
+        assertEquals("Input: intMax(1, 2, 3)", 3, expressions.intMax(1, 2, 3));
+        assertEquals("Input: intMax(1, 3, 2)", 3, expressions.intMax(1, 3, 2));
+        assertEquals("Input: intMax(3, 2, 1)", 3, expressions.intMax(3, 2, 1));
+    }
 }

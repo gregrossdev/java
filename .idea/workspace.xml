@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ae23254-b285-47a6-8236-b3d78330dd69" name="Changes" comment="NUMBERS sumDouble()">
+    <list default="true" id="9ae23254-b285-47a6-8236-b3d78330dd69" name="Changes" comment="update to block code formatting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gregrossdev/c00Expressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gregrossdev/c00Expressions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gregrossdev/c00ExpressionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gregrossdev/c00ExpressionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
       <recent name="com.gregrossdev" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.c00ExpressionsTest">
+  <component name="RunManager" selected="JUnit.c00ExpressionsTest.intMax">
     <configuration name="c00Expressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gregrossdev.c00Expressions" />
       <module name="java" />
@@ -97,6 +96,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="c00ExpressionsTest.intMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gregrossdev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gregrossdev" />
+      <option name="MAIN_CLASS_NAME" value="com.gregrossdev.c00ExpressionsTest" />
+      <option name="METHOD_NAME" value="intMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="c00ExpressionsTest.sumDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <extension name="coverage">
@@ -115,9 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.c00ExpressionsTest.intMax" />
+        <item itemvalue="Application.c00Expressions" />
         <item itemvalue="JUnit.c00ExpressionsTest" />
         <item itemvalue="JUnit.c00ExpressionsTest.diff21" />
-        <item itemvalue="Application.c00Expressions" />
         <item itemvalue="JUnit.c00ExpressionsTest.sumDouble" />
       </list>
     </recent_temporary>
@@ -130,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665589482388</updated>
-      <workItem from="1665589483676" duration="5233000" />
+      <workItem from="1665589483676" duration="6684000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665589766739</created>
@@ -160,7 +176,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665593366498</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixes">
+      <created>1665602314727</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665602314727</updated>
+    </task>
+    <task id="LOCAL-00006" summary="NUMBERS diff21()">
+      <created>1665602333445</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665602333445</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update to block code formatting">
+      <created>1665602440738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665602440738</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,8 +216,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <MESSAGE value="fixes" />
     <MESSAGE value="NUMBERS sumDouble()" />
-    <option name="LAST_COMMIT_MESSAGE" value="NUMBERS sumDouble()" />
+    <MESSAGE value="fixes" />
+    <MESSAGE value="NUMBERS diff21()" />
+    <MESSAGE value="update to block code formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to block code formatting" />
   </component>
 </project>
