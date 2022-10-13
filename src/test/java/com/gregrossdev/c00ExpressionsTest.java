@@ -60,4 +60,11 @@ class c00ExpressionsTest {
         assertEquals("Input: teenSum(10, 13)", 19, expressions.teenSum(10, 13));
         assertEquals("Input: teenSum(13, 2)", 19, expressions.teenSum(13, 2));
     }
+
+    @Test
+    void teaParty() {
+        assertEquals("Input: teaParty(6, 8)", 1, expressions.teaParty(6, 8));
+        assertEquals("Input: teaParty(3, 8)", 0, expressions.teaParty(3, 8));
+        assertEquals("Input: teaParty(20, 6)", 2, expressions.teaParty(20, 6));
+    }
 }

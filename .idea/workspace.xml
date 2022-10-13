@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ae23254-b285-47a6-8236-b3d78330dd69" name="Changes" comment="NUMBERS sortaSum()">
+    <list default="true" id="9ae23254-b285-47a6-8236-b3d78330dd69" name="Changes" comment="NUMBERS teenSum()">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gregrossdev/c00Expressions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gregrossdev/c00Expressions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,7 @@
       <recent name="com.gregrossdev" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.c00ExpressionsTest">
+  <component name="RunManager" selected="JUnit.c00ExpressionsTest.teaParty">
     <configuration name="c00Expressions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gregrossdev.c00Expressions" />
       <module name="java" />
@@ -79,22 +80,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="c00ExpressionsTest.dateFashion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gregrossdev.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gregrossdev" />
-      <option name="MAIN_CLASS_NAME" value="com.gregrossdev.c00ExpressionsTest" />
-      <option name="METHOD_NAME" value="dateFashion" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="c00ExpressionsTest.sortaSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java" />
       <extension name="coverage">
@@ -106,6 +91,22 @@
       <option name="PACKAGE_NAME" value="com.gregrossdev" />
       <option name="MAIN_CLASS_NAME" value="com.gregrossdev.c00ExpressionsTest" />
       <option name="METHOD_NAME" value="sortaSum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="c00ExpressionsTest.teaParty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gregrossdev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gregrossdev" />
+      <option name="MAIN_CLASS_NAME" value="com.gregrossdev.c00ExpressionsTest" />
+      <option name="METHOD_NAME" value="teaParty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.c00ExpressionsTest.teaParty" />
+        <item itemvalue="Application.c00Expressions" />
         <item itemvalue="JUnit.c00ExpressionsTest" />
         <item itemvalue="JUnit.c00ExpressionsTest.teenSum" />
-        <item itemvalue="Application.c00Expressions" />
         <item itemvalue="JUnit.c00ExpressionsTest.sortaSum" />
-        <item itemvalue="JUnit.c00ExpressionsTest.dateFashion" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665589482388</updated>
-      <workItem from="1665589483676" duration="11463000" />
+      <workItem from="1665589483676" duration="12466000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665589766739</created>
@@ -224,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665679583800</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="NUMBERS teenSum()">
+      <created>1665680289327</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665680289327</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +259,7 @@
     <MESSAGE value="NUMBERS max1020()" />
     <MESSAGE value="NUMBERS dateFashion()" />
     <MESSAGE value="NUMBERS sortaSum()" />
-    <option name="LAST_COMMIT_MESSAGE" value="NUMBERS sortaSum()" />
+    <MESSAGE value="NUMBERS teenSum()" />
+    <option name="LAST_COMMIT_MESSAGE" value="NUMBERS teenSum()" />
   </component>
 </project>
