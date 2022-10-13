@@ -67,4 +67,11 @@ class c00ExpressionsTest {
         assertEquals("Input: teaParty(3, 8)", 0, expressions.teaParty(3, 8));
         assertEquals("Input: teaParty(20, 6)", 2, expressions.teaParty(20, 6));
     }
+
+    @Test
+    void loneSum() {
+        assertEquals("Input: loneSum(1, 2, 3)", 6, expressions.loneSum(1, 2, 3));
+        assertEquals("Input: loneSum(3, 2, 3)", 2, expressions.loneSum(3, 2, 3));
+        assertEquals("Input: loneSum(3, 3, 3)", 0, expressions.loneSum(3, 3, 3));
+    }
 }
