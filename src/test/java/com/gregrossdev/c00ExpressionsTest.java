@@ -74,4 +74,13 @@ class c00ExpressionsTest {
         assertEquals("Input: loneSum(3, 2, 3)", 2, expressions.loneSum(3, 2, 3));
         assertEquals("Input: loneSum(3, 3, 3)", 0, expressions.loneSum(3, 3, 3));
     }
+
+    @Test
+    void luckySum() {
+        assertEquals("Input: luckySum(1, 2, 3)", 6, expressions.luckySum(1, 2, 3));
+        assertEquals("Input: luckySum(1, 2, 13)", 3, expressions.luckySum(1, 2, 13));
+        assertEquals("Input: luckySum(1, 13, 3)", 1, expressions.luckySum(1, 13, 3));
+        assertEquals("Input: luckySum(13, 1, 3)", 3, expressions.luckySum(13, 1, 3));
+        assertEquals("Input: luckySum(13, 13, 3)", 0, expressions.luckySum(13, 13, 3));
+    }
 }
