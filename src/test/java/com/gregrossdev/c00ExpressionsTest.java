@@ -46,4 +46,11 @@ class c00ExpressionsTest {
         assertEquals("Input: dateFashion(5, 2)", 0, expressions.dateFashion(5, 2));
         assertEquals("Input: dateFashion(5, 5)", 1, expressions.dateFashion(5, 5));
     }
+
+    @Test
+    void sortaSum() {
+        assertEquals("Input: sortaSum(3, 4)", 7, expressions.sortaSum(3, 4));
+        assertEquals("Input: sortaSum(9, 4)", 20, expressions.sortaSum(9, 4));
+        assertEquals("Input: sortaSum(10, 11)", 21, expressions.sortaSum(10, 11));
+    }
 }
