@@ -53,4 +53,11 @@ class c00ExpressionsTest {
         assertEquals("Input: sortaSum(9, 4)", 20, expressions.sortaSum(9, 4));
         assertEquals("Input: sortaSum(10, 11)", 21, expressions.sortaSum(10, 11));
     }
+
+    @Test
+    void teenSum() {
+        assertEquals("Input: teenSum(3, 4)", 7, expressions.teenSum(3, 4));
+        assertEquals("Input: teenSum(10, 13)", 19, expressions.teenSum(10, 13));
+        assertEquals("Input: teenSum(13, 2)", 19, expressions.teenSum(13, 2));
+    }
 }

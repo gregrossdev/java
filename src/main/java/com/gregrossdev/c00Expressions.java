@@ -122,10 +122,28 @@ public class c00Expressions {
         return (sum >= 10 && sum <= 19) ? 20 : sum;
     }
 
+    /*
+     * teenSum(3, 4) → 7
+     * teenSum(10, 13) → 19
+     * teenSum(13, 2) → 19
+     *
+     * @param int a
+     * @param int b
+     * @return int
+     *      sum parameters
+     *      if either parameter is in range 13 - 19 return 19
+     *      else return sum
+     */
+    public static int teenSum(int a, int b)
+    {
+       int sum = a + b;
+       return (a >= 13 && a <= 19) || (b >= 13 && b <= 19) ? 19 : sum;
+    }
+
     public static void main(String[] args) {
         // testing playground
-        System.out.println(sortaSum(3, 4));
-        System.out.println(sortaSum(9, 4));
-        System.out.println(sortaSum(10, 11));
+        System.out.println(teenSum(3, 4));
+        System.out.println(teenSum(10, 13));
+        System.out.println(teenSum(13, 2));
     }
 }
