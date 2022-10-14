@@ -4,7 +4,7 @@ public class c00Expressions {
 
 //  TODO: NUMBERS
 
-    /*
+    /**
      * sumDouble(1, 2) → 3
      * sumDouble(3, 2) → 5
      * sumDouble(2, 2) → 8
@@ -25,7 +25,7 @@ public class c00Expressions {
             return sum;
     }
 
-    /*
+    /**
      * diff21(19) → 2
      * diff21(10) → 11
      * diff21(21) → 0
@@ -45,7 +45,7 @@ public class c00Expressions {
             return 21 - n;
     }
 
-    /*
+    /**
      * intMax(1, 2, 3) → 3
      * intMax(1, 3, 2) → 3
      * intMax(3, 2, 1) → 3
@@ -65,7 +65,7 @@ public class c00Expressions {
         return max;
     }
 
-    /*
+    /**
      * max1020(11, 19) → 19
      * max1020(19, 11) → 19
      * max1020(11, 9) → 11
@@ -84,7 +84,7 @@ public class c00Expressions {
         return a > b ? a : b;
     }
 
-    /*
+    /**
      * dateFashion(5, 10) → 2
      * dateFashion(5, 2) → 0
      * dateFashion(5, 5) → 1
@@ -103,7 +103,7 @@ public class c00Expressions {
         else return 1;
     }
 
-    /*
+    /**
      * sortaSum(3, 4) → 7
      * sortaSum(9, 4) → 20
      * sortaSum(10, 11) → 21
@@ -122,7 +122,7 @@ public class c00Expressions {
         return (sum >= 10 && sum <= 19) ? 20 : sum;
     }
 
-    /*
+    /**
      * teenSum(3, 4) → 7
      * teenSum(10, 13) → 19
      * teenSum(13, 2) → 19
@@ -140,7 +140,7 @@ public class c00Expressions {
        return (a >= 13 && a <= 19) || (b >= 13 && b <= 19) ? 19 : sum;
     }
 
-    /*
+    /**
      * teaParty(6, 8) → 1
      * teaParty(3, 8) → 0
      * teaParty(20, 6) → 2
@@ -160,7 +160,7 @@ public class c00Expressions {
         else return 1;
     }
 
-    /*
+    /**
      * loneSum(1, 2, 3) → 6
      * loneSum(3, 2, 3) → 2
      * loneSum(3, 3, 3) → 0
@@ -185,7 +185,7 @@ public class c00Expressions {
        return sum;
     }
 
-    /*
+    /**
      * luckySum(1, 2, 3) → 6
      * luckySum(1, 2, 13) → 3
      * luckySum(1, 13, 3) → 1
