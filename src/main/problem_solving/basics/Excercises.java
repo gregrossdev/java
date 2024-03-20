@@ -1,6 +1,6 @@
 package main.problem_solving.basics;
 
-public class Problems {
+public class Excercises {
 
     static class Expressions {
         /*
