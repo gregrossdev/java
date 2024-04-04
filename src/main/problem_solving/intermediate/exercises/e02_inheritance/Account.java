@@ -1,4 +1,4 @@
-package main.problem_solving.intermediate.exercises.inheritance;
+package main.problem_solving.intermediate.exercises.e02_inheritance;
 
 public class Account {
 

@@ -1,4 +1,4 @@
-package main.problem_solving.intermediate.exercises.encapsulation;
+package main.problem_solving.intermediate.exercises.e01_encapsulation;
 
 public class Television {
 
